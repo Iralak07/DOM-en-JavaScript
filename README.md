@@ -136,6 +136,33 @@ La manipulación del DOM (Document Object Model) con JavaScript ofrece métodos 
 
         addEventListener(): Permite agregar un controlador de eventos a un elemento.
         removeEventListener(): Permite eliminar un controlador de eventos de un elemento.
+        
+    Metodos para trabajar con eventos del mouse:
+    
+          click: Se activa cuando se hace clic en un elemento.
+          dblclick: Se activa cuando se hace doble clic en un elemento.
+          mousedown: Se activa cuando se presiona un botón del mouse sobre un elemento.
+          mouseup: Se activa cuando se suelta un botón del mouse sobre un elemento.
+          mousemove: Se activa cuando se mueve el mouse sobre un elemento.
+          mouseenter: Se activa cuando el mouse entra en un elemento.
+          mouseleave: Se activa cuando el mouse sale de un elemento.
+          mouseover: Se activa cuando el mouse se mueve sobre un elemento o sus elementos secundarios.
+          mouseout: Se activa cuando el mouse se mueve fuera de un elemento o sus elementos secundarios.
+          contextmenu: Se activa cuando se hace clic con el botón derecho del mouse sobre un elemento para abrir el menú contextual.
+          
+    Metodos para trabjar con eventos del teclado:
+    
+           keydown: Se activa cuando se presiona una tecla.
+           keyup: Se activa cuando se suelta una tecla.
+           keypress: Se activa cuando se mantiene presionada una tecla y se repite la acción de entrada de la tecla.
+           
+    Metodos para trabjar con eventos de formularios:
+    
+          submit: Se activa cuando se envía un formulario, ya sea mediante el botón de envío o mediante programación.
+          input: Se activa cuando se realiza un cambio en un campo de entrada de texto, como <input> o <textarea>.
+          change: Se activa cuando se realiza un cambio y se pierde el foco de un campo de entrada, como <input> o <select>.
+          focus: Se activa cuando un campo de entrada obtiene el foco, es decir, cuando el usuario hace clic en él o se desplaza a él                 utilizando la tecla Tab.
+          blur: Se activa cuando un campo de entrada pierde el foco, es decir, cuando el usuario hace clic en otro lugar o se desplaza a             otro campo.
 
     Propiedades para navegación y acceso a nodos relacionados:
 
